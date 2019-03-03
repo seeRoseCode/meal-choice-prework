@@ -1,5 +1,4 @@
-def meal_choice(meat = "meat")
-  puts meat
+def meal_choice(name = "meat")
+  return name
 end
-
-meal_choice
+meal_choice("vegan")
